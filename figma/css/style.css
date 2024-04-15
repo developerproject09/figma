@@ -1,0 +1,251 @@
+*{
+    padding:0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+}
+.container{
+    max-width:1540px ;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: black;
+}
+.logo{
+    margin-left: 15px;
+    transition: 1s;
+
+}
+nav{
+    left: 0;
+    right: 0;
+    max-width: 1540px;
+    height: 90px;
+    justify-content: space-between;
+    display: flex;
+    backdrop-filter: blur(15px);
+    align-items: center;
+    position: fixed;
+    background: transparent;
+    z-index: 2;
+    top: 0;
+    margin: 0 auto;
+    
+}
+.menu{
+    height: 674px;
+    background-image: url(./Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 2s;
+}
+
+.menu_text{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 150px;
+}
+
+.nav_btn{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    transition: 0.5s;
+    cursor: pointer;
+    border: 1px solid #fff;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+}
+
+.nav_btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.nav_img{
+    padding-top: 50px;
+    display: flex;
+    margin: 0 auto;
+    z-index: 2;
+}
+main{
+    height: 500px;
+    justify-content: center;
+    text-align:center;
+    padding: 60px 20px;
+    color: #ffff;
+    transition: 1s;
+}
+.menu_bars{ 
+    margin-right: 25px;
+}
+
+.main_text{
+    width: 700px;
+    height: 300px;
+    margin: 0 auto; 
+    position: relative;
+    bottom: 100px;
+    text-align: left;
+
+}
+.section_one{
+    height: 800px;
+    background-color: black;
+    color: #fff;
+    padding: 0px 40px;
+    transition: 1s;
+}
+
+.sec_img{
+    display: flex;
+    transition: 1s;
+}
+.sec_img img{
+    width: 700px;
+    height: 400px;
+}
+
+.sec_final{
+    width: 800px;
+    height: 300px;
+    transition: 1s;
+}
+
+.sec_final h1{
+    color: red;
+    margin: 20px 0px;
+}
+
+.sec_final p{
+    border: 1px dotted gray;
+    border-left: none;
+    border-right: none;
+    padding: 16px 0px;
+}
+.section_two{
+    background-color: black;
+    color: #fff;
+    display:flex;
+    row-gap: 100px;
+    transition: 1s;
+}
+
+#section_two_inp{
+    outline: none;
+    width: 670px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px solid gray;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: #fff;
+}
+.section_two_text{
+   width: 500px;
+   height: 500px;
+   margin-left: 50px;
+   transition: 1s;
+}
+.section_two_text_item{
+    margin: 40px 0px;
+    transition: 1s;
+}
+.section_two_contact{
+    margin: 150px;
+}
+.section_two_contact a{
+    color: rgb(136, 135, 135);
+}
+
+footer{
+    height: 300px;
+    background-image: url(./Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.footer_logo{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer_data{
+    display: flex;
+    justify-content: space-between;
+    align-items:normal;
+    bottom: 0px;
+    padding-top: 140px;
+    padding: 140px 20px 0 20px;
+}
+.insta:hover{
+    cursor: pointer;
+    background-color: orangered;
+    border-radius: 15px;
+    scale: 1.2;
+}
+.twitter:hover{
+    cursor: pointer;
+    background-color:aqua;
+    color: aqua;
+    border-radius: 15px;
+    scale: 1.2;
+}
+.footer_icon{
+    display: flex;
+    column-gap: 15px;
+    justify-content: end;
+    margin: 0 auto;
+}
+.facebook:hover{
+    cursor: pointer;
+    background-color: rgb(31, 31, 223);
+    border-radius: 15px;
+    scale: 1.2;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider_show{
+    width: 100%;
+    height: 500px;
+    margin:30px 0px 30px 0 ;
+}
